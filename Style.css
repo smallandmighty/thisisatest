@@ -1,0 +1,85 @@
+.body {
+  height: auto;
+  width: auto;
+}
+
+.first {
+  height: 1000px;
+  background-image: url('../Website/plant.jpg');
+  background-position: center;
+  background-repeat: repeat;
+	background-size: auto;
+}
+
+.front {
+  margin-left: 130px;
+  height: 230px;
+  width: 600px;
+  text-align: center;
+  opacity: 0.8;
+  font-family: 'Dancing Script', cursive;
+  font-size: 130px;
+  color: #5f2828;
+}
+
+.h3 {
+  font-family: 'Courier';
+  font-size: 5px;
+  margin-top: 110px;
+  margin-left: 220px;
+  height: 40px;
+  width: 590px;
+  color: black;
+}
+
+p.h3 {
+  font-size: 18px;
+}
+
+.headerStyle {
+  font-size: 20px;
+  text-align: center;
+  width: 390px;
+  color: black;
+}
+
+.input {
+  margin-left: 220px;
+  width: 390px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.link {
+  margin-left: 220px;
+  font-size: 12px;
+}
+
+.submit {
+  border-radius: 12px;
+}
+
+.cooler {
+  height: 300px;
+  float: left;
+  margin-top: 160px;
+}
+
+.second {
+  height: 500px;
+  padding: 20px;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid #5d7131;
+  font-family: 'Abril Fatface';
+  color: #5d7131;
+}
+
+.col-3 {
+  width: 25%;
+  height: 300;
+  margin: 50;
+}
