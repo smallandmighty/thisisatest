@@ -1,4 +1,4 @@
-<script>
+
 $('#treads').click(function (event) {
     event.preventDefault();
     $('.second').scrollView();
@@ -20,4 +20,3 @@ $(function () {
     };
     $('.grid-stack').gridstack(options);
 });
-</script>
