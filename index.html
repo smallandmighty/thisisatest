@@ -7,7 +7,8 @@
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
   <link rel="stylesheet" href="gridstack.css" />
-    <title>L O O P</title>
+  <script src="Script.js"></script>
+    <title>SMNLNM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 </header>
 <body>
@@ -25,8 +26,7 @@
         <br />
         <a class="link" id="treads" href="">Top reads</a>
       <br />
-    <img src="" class="cooler"/ >
-  </div>
+      </div>
   <!-- SECOND DIV -->
   <div class="second">
       <h2 class="headerStyle">TOP READS</h2>
@@ -35,32 +35,12 @@
           <div class="col-3">3.</div>
       </div>
   </body>
+  <!--- THIRD DIV -->
+  <div class="third">
+  </div>
 </html>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
 <script src="gridstack.js"></script>
 <script src="gridstack.jQueryUI.js"></script>
-<script type="text/javascript">
-$(function () {
-    var options = {
-        cellHeight: 80,
-        verticalMargin: 10
-    };
-    $('.grid-stack').gridstack(options);
-});
-</script>
-<script>
-$('#treads').click(function (event) {
-    event.preventDefault();
-    $('.second').scrollView();
-});
-</script>
-<script>
-$.fn.scrollView = function () {
-  return this.each(function () {
-    $('html, body').animate({
-      scrollTop: $(this).offset().top
-    }, 1000);
-  });
-}
-</script>
